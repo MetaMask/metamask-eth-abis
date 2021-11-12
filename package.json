@@ -2,14 +2,14 @@
   "name": "@metamask/metamask-eth-abis",
   "version": "1.0.0",
   "description": "The MetaMask Node module template.",
+  "homepage": "https://github.com/MetaMask/metamask-eth-abis#readme",
+  "bugs": {
+    "url": "https://github.com/MetaMask/metamask-eth-abis/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/MetaMask/metamask-eth-abis.git"
   },
-  "bugs": {
-    "url": "https://github.com/MetaMask/metamask-eth-abis/issues"
-  },
-  "homepage": "https://github.com/MetaMask/metamask-eth-abis#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

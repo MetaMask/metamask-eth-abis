@@ -7,6 +7,7 @@ Node module to export the following ABIs:
 3. ERC1155: Multi Token Standard
 
 Requires the web3 API to be available, either by initailizing it yourself, or using a web3-injecting Javascript environment, like MetaMask, Geth, or Mist.
+
 ## Installation
 
 `yarn add @metamask/metamask-eth-abis`
@@ -18,24 +19,28 @@ or
 ## Usage
 
 ```js
-
 let { abiERC20 } = require('metamask-eth-abis');
 
 // ERC 20
 
-let erc20Token = web3.eth.contract(abiERC20).at(contractAddress)
+let erc20Token = web3.eth.contract(abiERC20).at(contractAddress);
 
-erc20Token.name.call(function(err, name) {
-  if(err) { console.log(err) }
-  if(name) { console.log('The token name is: ' + name) }
-})
+erc20Token.name.call(function (err, name) {
+  if (err) {
+    console.log(err);
+  }
+  if (name) {
+    console.log('The token name is: ' + name);
+  }
+});
 
-erc20Token.symbol.call({from: addr}, function(err, symbol) {
+erc20Token.symbol.call({ from: addr }, function (err, symbol) {
   //ABI expects string here,
-  if(err) { console.log(err) }
-  console.log('Token symbol: ' + symbol)
-})
-
+  if (err) {
+    console.log(err);
+  }
+  console.log('Token symbol: ' + symbol);
+});
 ```
 
 ## Contributing
