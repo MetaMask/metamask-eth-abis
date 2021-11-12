@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "setup": "yarn install && yarn allow-scripts",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "prepublishOnly": "yarn build:clean && yarn lint && yarn test",
     "lint:eslint": "eslint . --cache --ext js,ts",
