@@ -1,6 +1,6 @@
 {
   "name": "@metamask/metamask-eth-abis",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The MetaMask Node module template.",
   "homepage": "https://github.com/MetaMask/metamask-eth-abis#readme",
   "bugs": {
