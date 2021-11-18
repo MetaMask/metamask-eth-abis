@@ -7,13 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [2.1.0]
-### Uncategorized
-- Add License ([#3](https://github.com/MetaMask/metamask-eth-abis/pull/3))
+### Added
+- Add Software License ([#3](https://github.com/MetaMask/metamask-eth-abis/pull/3))
 
 ## [2.0.0]
 ### Added
 - Add ERC-20, ERC-721, and ERC-1155 ABIs ([#1](https://github.com/MetaMask/metamask-eth-abis/pull/1))
-- Initial commit
 
 [Unreleased]: https://github.com/MetaMask/metamask-eth-abis/compare/v2.1.0...HEAD
 [2.1.0]: https://github.com/MetaMask/metamask-eth-abis/compare/v2.0.0...v2.1.0
