@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [3.0.0]
-### Uncategorized
+### Changed
 - [BREAKING] Harden types on ABI objects ([#6](https://github.com/MetaMask/metamask-eth-abis/pull/6))
 
 ## [2.1.0]
