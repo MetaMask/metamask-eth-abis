@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.0.0]
 ### Changed
 - [BREAKING] Harden types on ABI objects ([#6](https://github.com/MetaMask/metamask-eth-abis/pull/6))
+  - If you have a function that takes an argument typed via `typeof abiERC1155`, `typeof abiERC20`, or `typeof abiERC721,` that argument must now literally be the ABI object you are referencing instead of a general ABI shape.
+
 
 ## [2.1.0]
 ### Added
