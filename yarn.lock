@@ -519,13 +519,14 @@
   resolved "https://registry.yarnpkg.com/@lavamoat/preinstall-always-fail/-/preinstall-always-fail-1.0.0.tgz#e78a6e3d9e212a4fef869ec37d4f5fb498dea373"
   integrity sha512-vD2DcC0ffJj1w2y1Lu0OU39wHmlPEd2tCDW04Bm6Kf4LyRnCHCezTsS8yzeSJ+4so7XP+TITuR5FGJRWxPb+GA==
 
-"@metamask/auto-changelog@^2.3.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@metamask/auto-changelog/-/auto-changelog-2.5.0.tgz#078f38142a3086fdb5556c758969a015c71dfdc9"
-  integrity sha512-39FeU98Poll3eTqv/bggqo3Yisza0WQJ8l9IiYloMVa2LV8XqTNqVkS4cNEU/5yq62n47JSAv6lZBtWCqeAjZQ==
+"@metamask/auto-changelog@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@metamask/auto-changelog/-/auto-changelog-3.4.3.tgz#7de55e286fde228dd7b86a208cbaaa800f70ff43"
+  integrity sha512-C/4HgLE4CBQEdut3pJbS8PJeDMQZ8Ln4WnB5ANyY7IOjWuUQ4V0OC2jwD5yWoZP8+umSul22axwF0fnbqsSuSQ==
   dependencies:
     diff "^5.0.0"
     execa "^5.1.1"
+    prettier "^2.8.8"
     semver "^7.3.5"
     yargs "^17.0.1"
 
@@ -3969,10 +3970,10 @@ prettier-plugin-packagejson@^2.2.11:
   dependencies:
     sort-package-json "1.50.0"
 
-prettier@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
-  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
+prettier@^2.2.1, prettier@^2.8.8:
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 pretty-format@^26.0.0, pretty-format@^26.6.2:
   version "26.6.2"
