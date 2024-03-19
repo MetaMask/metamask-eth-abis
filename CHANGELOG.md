@@ -7,9 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [3.1.0]
-### Uncategorized
+### Added
 - Add FiatTokenV2 contract ([#20](https://github.com/MetaMask/metamask-eth-abis/pull/20))
-- Enabling MetaMask security code scanner ([#19](https://github.com/MetaMask/metamask-eth-abis/pull/19))
 
 ## [3.0.0]
 ### Changed
