@@ -1,13 +1,11 @@
-# MetaMask ETH ABIs
+# `@metamask/metamask-eth-abis`
 
-Node module to export the following ABIs:
+This is an NPM package which contains the following ABIs:
 
-1. ERC20: Token Standard
-2. ERC721: Non-Fungible Token Standard
-3. ERC1155: Multi Token Standard
+1. ERC20 (Token Standard)
+2. ERC721 (Non-Fungible Token Standard)
+3. ERC1155 (Multi Token Standard)
 4. FiatTokenV2
-
-Requires the web3 API to be available, either by initializing it yourself, or using a web3-injecting Javascript environment, like MetaMask, Geth, or Mist.
 
 ## Installation
 
@@ -18,6 +16,8 @@ or
 `npm install @metamask/metamask-eth-abis`
 
 ## Usage
+
+Requires the web3 API to be available, either by initializing it yourself, or using a web3-injecting Javascript environment, like MetaMask, Geth, or Mist.
 
 ```js
 let { abiERC20 } = require('metamask-eth-abis');
@@ -44,15 +44,21 @@ erc20Token.symbol.call({ from: addr }, function (err, symbol) {
 });
 ```
 
+## API
+
+See our documentation:
+
+- [Latest published API documentation](https://metamask.github.io/metamask-eth-abis/latest/)
+- [Latest development API documentation](https://metamask.github.io/metamask-eth-abis/staging/)
+
 ## Contributing
 
 ### Setup
 
-- Install [Node.js](https://nodejs.org) version 12
-  - If you are using [nvm](https://github.com/creationix/nvm#installation) (recommended) running `nvm use` will automatically choose the right node version for you.
-- Install [Yarn v1](https://yarnpkg.com/en/docs/install)
-- Run `yarn setup` to install dependencies and run any requried post-install scripts
-  - **Warning:** Do not use the `yarn` / `yarn install` command directly. Use `yarn setup` instead. The normal install command will skip required post-install scripts, leaving your development environment in an invalid state.
+- Install the current LTS version of [Node.js](https://nodejs.org)
+  - If you are using [nvm](https://github.com/creationix/nvm#installation) (recommended) running `nvm install` will install the latest version and running `nvm use` will automatically choose the right node version for you.
+- Install [Yarn v4](https://yarnpkg.com/getting-started/install)
+- Run `yarn install` to install dependencies and run any required post-install scripts
 
 ### Testing and Linting
 
