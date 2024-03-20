@@ -7,8 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [3.1.1]
-### Uncategorized
-- Adds abiFiatTokenV2 to the index ([#22](https://github.com/MetaMask/metamask-eth-abis/pull/22))
+### Fixed
+- Exports abiFiatTokenV2 ([#22](https://github.com/MetaMask/metamask-eth-abis/pull/22))
 
 ## [3.1.0]
 ### Added
