@@ -19,6 +19,9 @@ module.exports = {
 
     {
       files: ['*.test.ts', '*.test.js'],
+      parserOptions: {
+        sourceType: 'module',
+      },
       extends: ['@metamask/eslint-config-jest'],
     },
   ],
