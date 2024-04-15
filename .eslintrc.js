@@ -24,6 +24,9 @@ module.exports = {
         sourceType: 'module',
       },
       extends: ['@metamask/eslint-config-jest'],
+      rules: {
+        'import/no-unresolved': 0,
+      },
     },
   ],
 
