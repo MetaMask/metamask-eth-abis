@@ -6,6 +6,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts'],
+      excludedFiles: ['*.test.ts'],
       extends: ['@metamask/eslint-config-typescript'],
     },
 
