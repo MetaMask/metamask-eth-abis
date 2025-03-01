@@ -605,10 +605,10 @@
     semver "^7.3.5"
     yargs "^17.0.1"
 
-"@metamask/eslint-config-jest@^12.1.0":
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/@metamask/eslint-config-jest/-/eslint-config-jest-12.1.0.tgz#4218dff6f763e7f3bb6b29b4b50fb7d55014b500"
-  integrity sha512-5TdLDqdukUwHwC2tqOpO/mxFr3hf4HQWNilu0VYFhLV6ovS73KGFPdkRMBGpDkLfYoD17x3mt+3eq52oNMq1+g==
+"@metamask/eslint-config-jest@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/eslint-config-jest/-/eslint-config-jest-13.0.0.tgz#45d262e1f243ceb5bd517d8a5248e96e37bad5fd"
+  integrity sha512-1WDhPq2THJ/9LLMzu6VXq4IT3gi5p68j/woGY5DxMtkFtGMpeiEwe4vJGAfEDmfOCYTHnDH4TaruCRixPhv6iw==
 
 "@metamask/eslint-config-nodejs@^12.1.0":
   version "12.1.0"
